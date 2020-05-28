@@ -9,7 +9,7 @@ hana_dep = declare_dependency(
 )
 
 if not meson.is_subproject()
-  install_headers('include/boost/hana.hpp', subdir: 'hana')
+  install_headers('include/boost/hana.hpp')
   
   pkgc = import('pkgconfig')
   pkgc.generate(name: 'hana',
