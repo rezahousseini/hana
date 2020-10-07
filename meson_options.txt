@@ -1,0 +1,4 @@
+option('BOOST_HANA_ENABLE_CONCEPT_CHECKS', type : 'feature', value : 'enabled', description : 'Enable concept checking in the interface methods.')
+option('BOOST_HANA_ENABLE_DEBUG_MODE', type : 'feature', value : 'disabled', description : 'Enable Hana\'s debug mode.')
+option('BOOST_HANA_ENABLE_STRING_UDL', type : 'feature', value : 'disabled', description : 'Enable the GNU extension allowing the special string literal operator template, which enables the _s suffix for creating compile-time strings.')
+option('BOOST_HANA_ENABLE_EXCEPTIONS', type : 'feature', value : 'enabled', description : 'Build with exceptions enabled. Note that Hana does not make use of exceptions, but this switch can be disabled when building the tests to assess that it is really the case.')
